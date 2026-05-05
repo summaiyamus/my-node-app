@@ -32,5 +32,5 @@ jobs:
             cd /var/www/nodeapp
             npm install
             pm2 stop all || true
-            pm2 start index.js --name nodeapp
+            pm2 start app.js --name nodeapp
             pm2 save
